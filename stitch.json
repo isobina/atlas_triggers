@@ -1,0 +1,8 @@
+{
+    "app_id": "triggers_stitchapp-kjlse",
+    "config_version": 20180301,
+    "name": "Triggers_StitchApp",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL",
+    "security": {}
+}

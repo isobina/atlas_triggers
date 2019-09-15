@@ -1,0 +1,18 @@
+{
+    "id": "5d153865498c468e76fc280d",
+    "name": "BuyNotification",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT"
+        ],
+        "database": "Stock",
+        "collection": "StockDocPerSecond",
+        "service_name": "webscrap",
+        "match": {},
+        "full_document": true,
+        "unordered": true
+    },
+    "function_name": "Atlas_Triggers_BuyNotification_1568306149",
+    "disabled": true
+}

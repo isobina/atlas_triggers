@@ -1,0 +1,11 @@
+{
+    "id": "5d014653679e5bb8cc249eff",
+    "name": "webscrap",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "webscrap",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
