@@ -43,7 +43,7 @@ exports = function(changeEvent) {
     
     if (fullDocument.p>"100") {
       var collection = context.services.get("webscrap").db("Stock").collection("Buy");
-      collection.insertOne({customer:fullDocument.symbol,action:"Sell"});
+      collection.insertOne({customer:fullDocument.symbol, action:"Sell", quantity:150});
     }
     
 };
