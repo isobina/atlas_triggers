@@ -41,7 +41,7 @@ exports = function(changeEvent) {
     const docId = changeEvent.documentKey._id;
     const fullDocument = changeEvent.fullDocument;
     
-    if (fullDocument.p>"51") {
+    if (fullDocument.p>"100") {
       var collection = context.services.get("webscrap").db("Stock").collection("Buy");
       collection.insertOne({customer:fullDocument.symbol, action:"Sell", quantity:150});
     }
